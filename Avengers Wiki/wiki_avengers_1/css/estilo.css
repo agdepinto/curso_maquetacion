@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2{
+    border-bottom: 1px solid #00BCD4;
+    padding-bottom: 8px;
+}
+p, ul, ol{
+    font-size: 14px;
+}
+p{
+    text-align: justify;
+}
+#logo-avengers{
+    float: right;
+    margin-left: 50px;
+}
+#avengers-all{
+    float: left;
+    margin-right: 30px;
+}
+#indice{
+    border: 1px solid #00ffd7;
+    width: 200px;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: aliceblue;
+}

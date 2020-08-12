@@ -1,0 +1,98 @@
+/*------La pseudo-clase :root de CSS selecciona el elemento raíz 
+ En HTML :root representa el elemento <html>
+y es idéntico al selector html, excepto que su especificidad es mayor*/
+
+:root {
+  font-size: 62.5%; /*el 62.5% de 16px = es 10px*/
+}
+
+/*
+
+Establecer el tamaño de fuente HTML en 62.5% se debe a que el 62.5% de 
+16px (tamaño de fuente predeterminado típico del navegador) 
+es 10px y así podemos realizar los cálculos en
+múltiplos de 10, más simple y sencillo.
+
+EJEMPLO
+1rem = 10px
+1.2rem = 12px
+1.6rem = 16px
+
+*/
+
+/*===============================================================*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #232323;
+  font-size: 1.5rem; /*15 px*/
+}
+
+header {
+  background-color: #232323;
+  padding: 2rem; /*20px*/
+  overflow: auto;
+}
+
+h1 {
+  font-size: 2.5rem; /*25 px*/
+  color: #fff;
+  font-weight: 600;
+  float: left;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 6rem; /*60px*/
+}
+
+nav {
+  float: right;
+  margin-top: 0.5rem;
+}
+
+nav li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*---------slider clase 2----------*/
+
+figure {
+  float: left;
+  width: 100vw; /*unidad relativa al viewport*/
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figure figcaption {
+  background-color: #232323;
+}
+
+figure h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem;
+  line-height: 100%;
+}
+
+/*--------Clase 3--------*/
+/*---------------- animaciones -------------------*/
+* {
+  outline: dotted 1px red;
+}
+
+#noticias-destacadas {
+  width: 300vw;
+}
+
+@keyframes slider {
+}
